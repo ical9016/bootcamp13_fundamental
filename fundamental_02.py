@@ -5,15 +5,7 @@
 2. iheritance
 3. polymorphism
 """
+from bangun_ruang.segitiga_samasisi import Segitigasamasisi
 
-class Segitiga:
-    def __init__(self, alas, tinggi):
-        self.alas = alas
-        self.tinggi = tinggi
-
-    def luas_segitiga(self):
-        return self.alas * self.tinggi/2
-
-
-segitiga1 = Segitiga(10,4)
-print (segitiga1.luas_segitiga())
+segitiga1 = Segitigasamasisi(10,4)
+print (segitiga1.is_segitiga_sama_sisi())
